@@ -1,0 +1,107 @@
+
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 180px;
+
+}
+.box1{
+    width: 60px;
+    height: 60px;
+    border: 2px solid  rgb(124, 196, 9);
+    background-color: rgb(19, 16, 16);
+    display: flex;
+    margin: 50px;
+    
+}
+.box2{
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgb(124, 196, 9);
+    background-color: rgb(10, 9, 9);
+    display: flex;
+    margin: 50px;
+    
+}
+.box3{
+    width: 60px;
+    height: 60px;
+    border: 2px solid  rgb(124, 196, 9);
+    background-color: rgb(10, 8, 8);
+    display: flex;
+    margin: 50px;
+    
+}
+.box4{
+    width: 60px;
+    height: 60px;
+    border: 2px solid  rgb(124, 196, 9);
+    background-color: rgb(19, 15, 15);
+    display: flex;
+    margin: 50px;
+    
+}
+.box1:hover{
+   
+  
+    background-color: white;
+    
+    
+}
+
+.box2:hover{
+    
+    
+    background-color:white;
+    
+}
+.box3:hover{
+ 
+    
+    background-color: white;
+    
+}
+.box4:hover{
+   
+   
+    background-color: white;
+    
+}
+.container{
+    border: 2px solid rgb(10, 238, 10);
+    height: 200px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: move;
+    animation-duration: 2s;
+    animation-delay:1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    
+    /* transition: ease-in; */
+    
+    
+
+}
+
+@keyframes  move {
+    from {
+        left: 0px;
+        width: 0px;
+        border: 2px solid rgb(26, 175, 26);
+        /* background-color: aqua; */
+    }
+    to{
+        left: 100%;
+        width: 60%;
+        border: 2px solid rgb(26, 175, 26);
+        /* background-color: aqua; */
+
+    }
+}
+
